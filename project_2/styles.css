@@ -14,10 +14,13 @@ body{
 
 h1{
     margin-bottom: 20px;
+    font-size: 43px;
 }
 
 span{
     margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 button{
