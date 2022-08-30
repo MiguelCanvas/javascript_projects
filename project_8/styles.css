@@ -4,3 +4,97 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(244, 252, 253);
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+    
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(182, 138, 27);
+    padding-bottom: 7px;
+}
+
+.button-container{
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+button{
+ padding: 8px;   
+ margin: 0 10px;
+ border-radius: 5px;
+ background-color: transparent;
+ border: 1px solid rgb(182, 138, 27);
+ color: rgb(163, 125, 27);
+}
+
+button:hover{
+    background-color: rgb(163, 125, 27);
+    color: white;
+}
+
+img{
+    width: 220px;
+    height: 170px;
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.section-container{
+    display: flex;
+    margin: 20px 0;
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.content-title p{
+    color: rgb(170, 129, 26);
+    font-weight: bold;
+}
+.content-text{
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.content-text p{
+    line-height: 25px;
+}
+h4{
+    letter-spacing: 3px;
+}
+
+.section-container{
+    width: 620px;
+}
+
+.content-container{
+    padding: 0 20px;
+}
